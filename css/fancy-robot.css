@@ -1,0 +1,218 @@
+.robot-container {
+    height: 100%;
+    width: 100%;
+    border: solid thick black;
+    background: white;
+}
+
+
+.robot-face-shape {
+    z-index: 1;
+    border: solid thick black;
+    border-radius: 50% 50% 4% 4% ;
+    height: 300px;
+    width: 288px;
+    background-image: url("https://picsum.photos/id/115/200/300");
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: 50%;
+    margin-left: -144px;
+}
+
+.robot-eye-left {
+    border: solid 10px #00000090;
+    padding: 10px;
+    border-radius: 50%;
+    Height: 33%;
+    width: 35%;
+    background: #a7c1d0;
+    position: absolute;
+    left: 5%;
+    bottom: 20px;
+}
+.robot-pupil-left {
+    border-radius: 50%;
+    Height: 60%;
+    width: 60%;
+    background: radial-gradient(#f7b733, #fc4a1a);
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
+
+.robot-eye-right {   
+    border: solid 10px #00000090;
+    padding: 10px;
+    border-radius: 50%;
+    Height: 33%;
+    width: 35%;
+    background: #a7c1d0;
+    position: absolute;
+    right: 5%;
+    bottom: 20px;
+}
+.robot-pupil-right {
+    border: solid rgb(107, 69, 19,);
+    Height: 60%;
+    width: 60%;
+    border-radius: 50%;
+    background: radial-gradient(#f7b733, #fc4a1a);
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
+
+.robot-nose {
+    border: Solid 10px Black;
+    width: 30px;
+    height: 30px;
+    background-color: #a7c1d0;
+    border-radius: 50%;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    transform: scale(.7);
+}
+
+.robot-ear-left {
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    left: 50%;
+    margin-left: -320px;
+    top: 480px;
+}
+.robot-ear-left-1 {
+    width: 50px;
+    height: 90px;
+    background: linear-gradient(#a7c1d0, #677882);
+    border-radius: 20%/50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: solid 5px black;
+    border-right: none;
+}
+.robot-ear-left-2 {
+    height: 70px;
+    width: 50px;
+    background: linear-gradient(#a7c1d0, #677882);
+    position: absolute;
+    border-radius: 20%/50%;
+    right: 30px;
+    top: 12px;
+    border: solid 5px black;
+    border-right: none;
+}
+.robot-ear-left-3 {
+     height: 50px;
+    width: 40px;
+    background: linear-gradient(#a7c1d0, #677882);
+    position: absolute;
+    border-radius: 20%/50%;
+    right: 60px;
+    top: 20px;
+    border: solid 5px black;
+    border-right: none;
+}
+
+.robot-ear-right{
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    right: 50%;
+    margin-right: -320px;
+    top: 480px;
+    border: 1px black;
+}
+.robot-ear-right-1{
+    width: 50px;
+    height: 90px;
+    background: linear-gradient(#a7c1d0, #677882);
+    border-radius: 20%/50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: solid 5px black;
+    border-left: none;
+}
+.robot-ear-right-2{ 
+    height: 70px;
+    width: 50px;
+    background: linear-gradient(#a7c1d0, #677882);
+    position: absolute;
+    border-radius: 20%/50%;
+    left: 30px;
+    top: 12px;
+    border: solid 5px black;
+    border-left: none;
+}
+.robot-ear-right-3{
+    height: 50px;
+    width: 40px;
+    background: linear-gradient(#a7c1d0, #677882);
+    position: absolute;
+    border-radius: 20%/50%;
+    left: 60px;
+    top: 20px; 
+    border: solid 5px black;
+    border-left: none;
+}
+
+.robot-teeth {
+ border: solid thick black;
+    border-radius: 10%;
+    Height: 6em;
+    width: 280px;
+    background-image: url("https://picsum.photos/id/115/200/300");
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    top: 310px;
+    
+}
+
+
+.robot-hair-style {
+    height: 250px;
+    width: 300px;
+    top: 150px;
+    left: 50%;
+    translate: -54%;
+    position: sticky;
+}
+.robot-hair-one {
+    border: solid  black;
+    border-radius: 20%/5%;
+    Height: 10px;
+    width: 190px;
+    transform: rotate(.2turn);
+    background-color: #a7c1d0;
+    position: absolute;
+    right:80px;
+    top: 90px;
+    
+}
+.robot-hair-two {
+    border: solid black;
+    border-radius: 20%/5%;
+    Height: 10px;
+    width: 190px;
+    transform: rotate(-0.2turn);
+    background-color: #a7c1d0;
+    position: absolute;
+    right: 3px;
+    top:90px;
+}
+.robot-hair-three {
+    border: solid  black;
+    Height: 80px;
+    width: 80px;
+    border-radius: 20%;
+    background-color: #a7c1d0;
+    position: absolute;
+    left: 120px;
+    top: 130px;
+    
+}
